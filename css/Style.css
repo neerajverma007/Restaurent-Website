@@ -1,0 +1,639 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.logo {
+    width: 140px;
+    height: 80px;
+}
+
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 50;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.women {
+    background-image: url(../images/back-bg.jpg);
+    width: 100%;
+    display: block;
+    overflow: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 100px;
+}
+
+.inside-women {
+    width: 520px;
+    height: 525px;
+    background-color: rgb(57 54 46 / 82%);
+    color: white;
+    border-radius: 20px;
+    text-align: start;
+    padding: 50px 45px;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.inside-women:hover {
+    transform: scale(1.1);
+}
+
+.inside-women h2 {
+    margin-bottom: 40px;
+    font-size: 61px;
+}
+
+.inside-women p {
+    margin-bottom: 30px;
+}
+
+.inside-women a {
+    color: white;
+    text-decoration: underline;
+}
+
+.inside-women a:hover {
+    color: #b19090;
+    ;
+}
+
+.inside-women .btn {
+    border: 2px solid white;
+    color: white;
+    width: 220px;
+    height: 65px;
+    border-radius: 30px;
+}
+
+.inside-women .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.coffee {
+    text-align: center;
+    margin: auto;
+}
+
+.heading h2 {
+    font-size: 61px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.coffee-image {
+    width: 80%;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 3;
+}
+
+#three {
+    order: 5;
+}
+
+#four {
+    order: 2;
+}
+
+#five {
+    order: 4;
+}
+
+#six {
+    order: 6;
+}
+
+
+.coffee .box {
+    background-color: #c2ad91;
+    color: white;
+    border-radius: 20px;
+    width: 410px;
+    height: 210px;
+    box-shadow: 2px 0px 11px #64636a91;
+    margin: auto;
+}
+
+.box p {
+    padding: 25px 25px;
+}
+
+.box h6 {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.coffee-msg p {
+    padding: 25px 51px;
+}
+
+.coffee a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.coffee .freepik {
+    font-style: italic;
+    margin: 50px;
+}
+
+.coffee .freepik a:hover {
+    color: #b19090;
+}
+
+.ingridient {
+    text-align: center;
+}
+
+.ingridient img {
+    width: 100%;
+}
+
+.numbering {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 30px 20px;
+    background-color: white;
+    margin-top: -120px;
+    box-shadow: 2px 0px 11px #64636a91;
+    transition: 0.5s;
+}
+
+.numbering:hover {
+    transform: translateY(-80px);
+
+}
+
+.numbering h2 {
+    color: #bfa98b;
+    font-size: 50px;
+}
+
+.numbering p {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.numbering h6 {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.ingridient .freepik {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ingridient .freepik a {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.ingridient .freepik a:hover {
+    color: #b19090;
+}
+
+.icecream {
+    background-image: url(../images/rapour-mid-back.jpg);
+    width: 100%;
+    display: block;
+    overflow: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.icecream .menu {
+    text-align: center;
+    margin: auto;
+    width: 165px;
+    height: 200px;
+    border-radius: 25px;
+    padding-top: 47px;
+    background-color: rgb(25 24 23 / 63%);
+    box-shadow: 2px 2px 15px #64636a91;
+    color: white;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.icecream .menu:hover {
+    transform: scale(1.1);
+}
+
+menu.h6 {
+    font-weight: 600;
+}
+
+.menu span {
+    font-size: 47px;
+}
+
+.popular {
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    background-color: #bda78a;
+}
+
+.popular h2 {
+    font-size: 55ps;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 55px;
+    color: white;
+    font-weight: 800;
+}
+
+.popular .dishes img {
+    width: 100%;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.popular .dish-image {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.popular .dishes {
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 2px 0px 11px #64636a91;
+
+}
+
+.popular .dishes img:hover {
+    transform: scale(1.1);
+}
+
+.popular .dishes h4 {
+    color: #bda78a;
+    padding-top: 20px;
+}
+
+.popular .dishes h6 {
+    color: #bda78a;
+    font-size: 25px;
+}
+
+.popular .dishes .btn {
+    width: 125px;
+    height: 45px;
+    background-color: #bda78a;
+    color: white;
+    border-radius: 25px;
+    margin-left: 100px;
+}
+
+.popular .dishes .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.popular .freepik {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.popular .freepik a {
+    color: black;
+    text-decoration: underline;
+}
+
+.popular .freepik a:hover {
+    color: #637974;
+}
+
+.kitchen {
+    background-color: #3c3c3c;
+    padding-top: 100px;
+    height: 70rem;
+}
+
+.person-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.person-image {
+    z-index: 1;
+    position: relative;
+    padding: 50px;
+}
+
+.person-image::before {
+    content: "";
+    width: 400px;
+    height: 450px;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #bfa98b;
+    z-index: -1;
+    bottom: -30px;
+    left: -10px;
+}
+
+.person-image::after {
+    width: 400px;
+    height: 450px;
+    background-color: #bfa98b;
+    border-radius: 20px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: -10px;
+}
+
+.kitchen .veg {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 25px;
+    bottom: -180px;
+    position: absolute;
+    z-index: 1;
+}
+
+.kitchen .veg h2 {
+    color: #bda78a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.kitchen p {
+    font-size: 20px;
+}
+
+.kitchen .veg .btn {
+    border: 2px solid #bda78a;
+    background-color: white;
+    color: black;
+    width: 220px;
+    height: 65px;
+    border-radius: 30px;
+}
+
+.kitchen .veg .btn:hover {
+    background-color: #bda78a;
+    color: white;
+}
+
+.kitchen .freepik p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.kitchen .freepik a {
+    color: black;
+    text-decoration: underline;
+}
+
+.kitchen .freepik a:hover {
+    color: #637974;
+}
+
+.cake {
+    text-align: center;
+    margin: auto;
+}
+
+.cake h2 {
+    font-size: 55px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.cake .desert img {
+    width: 350px;
+    height: 255px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.cake .desert {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.cake .desert img:hover {
+    transform: scale(1.1)
+}
+
+.cake .freepik {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cake .freepik a {
+    color: black;
+    text-decoration: underline;
+}
+
+.cake .freepik a:hover {
+    color: #637974;
+}
+
+.cake .btn {
+    border: 2px solid #bda78a;
+    background-color: white;
+    color: black;
+    width: 220px;
+    height: 65px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.cake .btn:hover {
+    background-color: #bda78a;
+    color: white;
+}
+
+.tea {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    background-color: black;
+    top: 500px;
+    height: 40rem;
+}
+
+
+.tea .about-tea {
+    width: 580px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 30px;
+    bottom: 250px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tea .about-tea h6 {
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.tea .about-tea h2 {
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.tea .tea-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.tea .tea-image {
+    z-index: 1;
+    position: relative;
+    padding: 70px;
+    top: -400px;
+}
+
+.tea .tea-image::after {
+    width: 300px;
+    height: 900px;
+    background-color: #bfa98b;
+    border-radius: 20px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -55px;
+    right: -10px;
+}
+
+.tea .freepik a {
+    color: black;
+    text-decoration: underline;
+}
+
+.tea .freepik a:hover {
+    color: #637974;
+}
+
+.contact {
+    text-align: center;
+    margin: auto;
+    padding-top: 500px;
+}
+
+.contact .final-pic img {
+    width: 100%;
+}
+
+.contact h2 {
+    padding-top: 30px;
+}
+
+.final-data {
+    text-align: left;
+}
+
+.final-data .btn {
+    width: 100%;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.final-data .btn:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.final-data .freepik a {
+    color: black;
+    text-decoration: underline;
+}
+
+.final-data .freepik a:hover {
+    color: #637974;
+}
+
+.final-data .freepik {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    background-color: #202124;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #E8E8E8;
+}
+
+.form-control {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.final-data a {
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
